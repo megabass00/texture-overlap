@@ -1,0 +1,36 @@
+#container {
+  border: 1px solid darkgray;
+  width: 640px;
+  height: 480px;
+  color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#controls {
+  width: 630px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid darkgray;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#mouse-position {
+  color: green;
+}
+
+#bg-image {
+  position: absolute;
+  z-index: -1;
+  width: 640px;
+  height: 480px;
+}
+
+#upload-button {
+  color: darkcyan;
+  margin: 10px 0;
+}
